@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6</DesignDeviceName>
+	<Variables>[box01]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>375</PageWidth>
+	<PageHeight>667</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>False</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>False</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>OfflineCopyOfPages</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="NewPage">
+					<style>background-color:#707070</style>
+					<pageenter>.assign visual number to container
+SetVar [box01] &quot;01&quot;
+SetVar [box02] &quot;02&quot;
+SetVar [box03] &quot;03&quot;
+SetVar [box04] &quot;04&quot;
+SetVar [box05] &quot;05&quot;
+SetVar [box06] &quot;06&quot;
+SetVar [box07] &quot;07&quot;
+SetVar [box08] &quot;08&quot;
+SetVar [box09] &quot;09&quot;
+SetVar [box10] &quot;10&quot;
+SetVar [box11] &quot;11&quot;
+SetVar [box12] &quot;12&quot;
+SetVar [box13] &quot;13&quot;
+SetVar [box14] &quot;14&quot;
+SetVar [box15] &quot;15&quot;
+SetVar [box16] &quot;16&quot;
+SetVar [box17] &quot;17&quot;
+SetVar [box18] &quot;18&quot;
+SetVar [box19] &quot;19&quot;
+SetVar [box20] &quot;20&quot;
+SetVar [box21] &quot;21&quot;
+SetVar [box22] &quot;22&quot;
+SetVar [box23] &quot;23&quot;
+SetVar [box24] &quot;24&quot;
+SetVar [box25] &quot;25&quot;
+SetVar [box26] &quot;26&quot;
+SetVar [box27] &quot;27&quot;
+SetVar [box28] &quot;28&quot;
+SetVar [box29] &quot;29&quot;
+SetVar [box30] &quot;30&quot;
+SetVar [box30] &quot;30&quot;
+SetVar [box31] &quot;31&quot;
+SetVar [box32] &quot;32&quot;
+SetVar [box33] &quot;33&quot;
+SetVar [box34] &quot;34&quot;
+SetVar [box35] &quot;35&quot;
+SetVar [box36] &quot;36&quot;
+SetVar [box37] &quot;37&quot;
+SetVar [box38] &quot;38&quot;
+SetVar [box39] &quot;39&quot;
+SetVar [box40] &quot;40&quot;</pageenter>
+					<Components>
+						<Container id="Container1">
+							<left>8px</left>
+							<top>346px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box01]</html>
+						</Container>
+						<Container id="Container2">
+							<left>95px</left>
+							<top>346px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box02]</html>
+						</Container>
+						<Container id="Container3">
+							<left>182px</left>
+							<top>346px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box03]</html>
+						</Container>
+						<Container id="Container4">
+							<left>269px</left>
+							<top>346px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box04]</html>
+						</Container>
+						<Container id="Container5">
+							<left>8px</left>
+							<top>460px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box05]</html>
+						</Container>
+						<Container id="Container6">
+							<left>95px</left>
+							<top>460px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box06]</html>
+						</Container>
+						<Container id="Container7">
+							<left>182px</left>
+							<top>460px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box07]</html>
+						</Container>
+						<Container id="Container8">
+							<left>269px</left>
+							<top>460px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box08]</html>
+						</Container>
+						<Container id="Container9">
+							<left>8px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box09]</html>
+						</Container>
+						<Container id="Container10">
+							<left>95px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box10]</html>
+						</Container>
+						<Container id="Container11">
+							<left>182px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box11]</html>
+						</Container>
+						<Container id="Container12">
+							<left>269px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box12]</html>
+						</Container>
+						<Container id="Container13">
+							<left>8px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box13]</html>
+						</Container>
+						<Container id="Container14">
+							<left>95px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box14]</html>
+						</Container>
+						<Container id="Container15">
+							<left>182px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box15]</html>
+						</Container>
+						<Container id="Container16">
+							<left>269px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box16]</html>
+						</Container>
+						<Container id="Container17">
+							<left>8px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box17]</html>
+						</Container>
+						<Container id="Container18">
+							<left>95px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box18]</html>
+						</Container>
+						<Container id="Container19">
+							<left>182px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box19]</html>
+						</Container>
+						<Container id="Container20">
+							<left>269px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box20]</html>
+						</Container>
+						<Container id="Container21">
+							<left>8px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box21]</html>
+						</Container>
+						<Container id="Container22">
+							<left>95px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box22]</html>
+						</Container>
+						<Container id="Container23">
+							<left>182px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box23]</html>
+						</Container>
+						<Container id="Container24">
+							<left>269px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box24]</html>
+						</Container>
+						<Container id="Container25">
+							<left>8px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box25]</html>
+						</Container>
+						<Container id="Container26">
+							<left>95px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box26]</html>
+						</Container>
+						<Container id="Container27">
+							<left>182px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box27]</html>
+						</Container>
+						<Container id="Container28">
+							<left>269px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box28]</html>
+						</Container>
+						<Container id="Container29">
+							<left>8px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box29]</html>
+						</Container>
+						<Container id="Container30">
+							<left>95px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box30]</html>
+						</Container>
+						<Container id="Container31">
+							<left>182px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box31]</html>
+						</Container>
+						<Container id="Container32">
+							<left>269px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box32]</html>
+						</Container>
+						<Container id="Container33">
+							<left>8px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box33]</html>
+						</Container>
+						<Container id="Container34">
+							<left>95px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box34]</html>
+						</Container>
+						<Container id="Container35">
+							<left>182px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box35]</html>
+						</Container>
+						<Container id="Container36">
+							<left>269px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box36]</html>
+						</Container>
+						<Container id="Container37">
+							<left>8px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box37]</html>
+						</Container>
+						<Container id="Container38">
+							<left>95px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box38]</html>
+						</Container>
+						<Container id="Container39">
+							<left>182px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box39]</html>
+						</Container>
+						<Container id="Container40">
+							<left>269px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box40]</html>
+						</Container>
+						<Container id="Container100">
+							<left>9px</left>
+							<top>140px</top>
+							<width>345px</width>
+							<height>202px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+						</Container>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>375px</width>
+							<height>667px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>

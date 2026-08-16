@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6</DesignDeviceName>
+	<Variables>[box01],[box02],[box03],[box04],[box05],[box06],[box07],[box08],[box09],[box10],[box11],[box12],[box13],[box14],[box15],[box16],[box17],[box18],[box19],[box20],[box21],[box22],[box23],[box24],[box25],[box26],[box27],[box28],[box29],[box30],[box31],[box32],[box33],[box34],[box35],[box36],[box37],[box38],[box39],[box40],[c1L],[c1T],[c2L],[c2T],[c3L],[c3T]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>375</PageWidth>
+	<PageHeight>667</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>False</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>False</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>OfflineCopyOfPages</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="home">
+					<style>background-color:#707070</style>
+					<pageenter>GetItem &quot;wherebox01&quot; [wherebox01]
+GetItem &quot;where01&quot; [where01]
+GetItem &quot;w01a&quot; [w01a]
+GetItem &quot;w01b&quot; [w01b]
+GetItem &quot;w01c&quot; [w01c]
+GetItem &quot;w01d&quot; [w01d]
+GetItem &quot;w01e&quot; [w01e]
+GetItem &quot;w01f&quot; [w01f]
+GetItem &quot;w01g&quot; [w01g]
+GetItem &quot;w01h&quot; [w01h]
+
+GetItem &quot;where02&quot; [where02]
+GetItem &quot;w02a&quot; [w02a]
+GetItem &quot;w02b&quot; [w02b]
+GetItem &quot;w02c&quot; [w02c]
+GetItem &quot;w02d&quot; [w02d]
+GetItem &quot;w02e&quot; [w02e]
+GetItem &quot;w02f&quot; [w02f]
+GetItem &quot;w02g&quot; [w02g]
+GetItem &quot;w02h&quot; [w02h]
+
+GetItem &quot;where03&quot; [where03]
+GetItem &quot;w03a&quot; [w03a]
+GetItem &quot;w03b&quot; [w03b]
+GetItem &quot;w03c&quot; [w03c]
+GetItem &quot;w03d&quot; [w03d]
+GetItem &quot;w03e&quot; [w03e]
+GetItem &quot;w03f&quot; [w03f]
+GetItem &quot;w03g&quot; [w03g]
+GetItem &quot;w03h&quot; [w03h]
+
+GetItem &quot;where04&quot; [where04]
+GetItem &quot;w04a&quot; [w04a]
+GetItem &quot;w04b&quot; [w04b]
+GetItem &quot;w04c&quot; [w04c]
+GetItem &quot;w04d&quot; [w04d]
+GetItem &quot;w04e&quot; [w04e]
+GetItem &quot;w04f&quot; [w04f]
+GetItem &quot;w04g&quot; [w04g]
+GetItem &quot;w04h&quot; [w04h]</pageenter>
+					<Components>
+						<Container id="Container1">
+							<left>2px</left>
+							<top>147px</top>
+							<width>116px</width>
+							<height>286px</height>
+							<style>font-size:7pt;background-color:#707070;border-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<Components>
+								<Headline id="Headline12">
+									<left>2px</left>
+									<top>40px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where01]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline14">
+									<left>5px</left>
+									<top>2px</top>
+									<width>103px</width>
+									<height>24px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;font-weight:800;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[wherebox01]</text>
+									<click>GotoPage &quot;Health&quot;</click>
+								</Headline>
+								<Headline id="Headline15">
+									<left>3px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01a]</text>
+								</Headline>
+								<Headline id="Headline16">
+									<left>29px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01b]</text>
+								</Headline>
+								<Headline id="Headline17">
+									<left>57px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01c]</text>
+								</Headline>
+								<Headline id="Headline18">
+									<left>84px</left>
+									<top>75px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01d]</text>
+								</Headline>
+								<Headline id="Headline7">
+									<left>2px</left>
+									<top>100px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where02]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline9">
+									<left>3px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02a]</text>
+								</Headline>
+								<Headline id="Headline10">
+									<left>29px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02b]</text>
+								</Headline>
+								<Headline id="Headline11">
+									<left>57px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02c]</text>
+								</Headline>
+								<Headline id="Headline19">
+									<left>84px</left>
+									<top>136px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02d]</text>
+								</Headline>
+								<Headline id="Headline20">
+									<left>2px</left>
+									<top>161px</top>
+									<width>111px</width>
+									<height>17px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where03]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline21">
+									<left>3px</left>
+									<top>202px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03a]</text>
+								</Headline>
+								<Headline id="Headline22">
+									<left>29px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03b]</text>
+								</Headline>
+								<Headline id="Headline23">
+									<left>57px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03c]</text>
+								</Headline>
+								<Headline id="Headline24">
+									<left>84px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03d]</text>
+								</Headline>
+								<Headline id="Headline25">
+									<left>2px</left>
+									<top>225px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where04]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline26">
+									<left>3px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04a]</text>
+								</Headline>
+								<Headline id="Headline27">
+									<left>29px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04b]</text>
+								</Headline>
+								<Headline id="Headline28">
+									<left>57px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04c]</text>
+								</Headline>
+								<Headline id="Headline29">
+									<left>84px</left>
+									<top>264px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04d]</text>
+								</Headline>
+								<Ellipse id="Ellipse21">
+									<left>16px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>opacity:0.36</style>
+								</Ellipse>
+								<Ellipse id="Ellipse22">
+									<left>37px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>opacity:0.36</style>
+								</Ellipse>
+								<Ellipse id="Ellipse23">
+									<left>59px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse24">
+									<left>81px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>opacity:0.36</style>
+								</Ellipse>
+								<Ellipse id="Ellipse17">
+									<left>16px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse18">
+									<left>37px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse19">
+									<left>59px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse20">
+									<left>81px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse25">
+									<left>16px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse26">
+									<left>37px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse27">
+									<left>59px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse28">
+									<left>81px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse29">
+									<left>16px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse30">
+									<left>37px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse31">
+									<left>59px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse32">
+									<left>81px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse33">
+									<left>16px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse34">
+									<left>37px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse35">
+									<left>59px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+								<Ellipse id="Ellipse36">
+									<left>81px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>opacity:0.34</style>
+								</Ellipse>
+							</Components>
+						</Container>
+						<Container id="Container9">
+							<left>8px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box09]</html>
+						</Container>
+						<Container id="Container10">
+							<left>95px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box10]</html>
+						</Container>
+						<Container id="Container11">
+							<left>182px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box11]</html>
+						</Container>
+						<Container id="Container12">
+							<left>269px</left>
+							<top>574px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box12]</html>
+						</Container>
+						<Container id="Container13">
+							<left>8px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box13]</html>
+						</Container>
+						<Container id="Container14">
+							<left>95px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box14]</html>
+						</Container>
+						<Container id="Container15">
+							<left>182px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box15]</html>
+						</Container>
+						<Container id="Container16">
+							<left>269px</left>
+							<top>689px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box16]</html>
+						</Container>
+						<Container id="Container17">
+							<left>8px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box17]</html>
+						</Container>
+						<Container id="Container18">
+							<left>95px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box18]</html>
+						</Container>
+						<Container id="Container19">
+							<left>182px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box19]</html>
+						</Container>
+						<Container id="Container20">
+							<left>269px</left>
+							<top>803px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box20]</html>
+						</Container>
+						<Container id="Container21">
+							<left>8px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box21]</html>
+						</Container>
+						<Container id="Container22">
+							<left>95px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box22]</html>
+						</Container>
+						<Container id="Container23">
+							<left>182px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box23]</html>
+						</Container>
+						<Container id="Container24">
+							<left>269px</left>
+							<top>917px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box24]</html>
+						</Container>
+						<Container id="Container25">
+							<left>8px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box25]</html>
+						</Container>
+						<Container id="Container26">
+							<left>95px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box26]</html>
+						</Container>
+						<Container id="Container27">
+							<left>182px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box27]</html>
+						</Container>
+						<Container id="Container28">
+							<left>269px</left>
+							<top>1032px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box28]</html>
+						</Container>
+						<Container id="Container29">
+							<left>8px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box29]</html>
+						</Container>
+						<Container id="Container30">
+							<left>95px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box30]</html>
+						</Container>
+						<Container id="Container31">
+							<left>182px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box31]</html>
+						</Container>
+						<Container id="Container32">
+							<left>269px</left>
+							<top>1147px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box32]</html>
+						</Container>
+						<Container id="Container33">
+							<left>8px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box33]</html>
+						</Container>
+						<Container id="Container34">
+							<left>95px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box34]</html>
+						</Container>
+						<Container id="Container35">
+							<left>182px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box35]</html>
+						</Container>
+						<Container id="Container36">
+							<left>269px</left>
+							<top>1261px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box36]</html>
+						</Container>
+						<Container id="Container37">
+							<left>8px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box37]</html>
+						</Container>
+						<Container id="Container38">
+							<left>95px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box38]</html>
+						</Container>
+						<Container id="Container39">
+							<left>182px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box39]</html>
+						</Container>
+						<Container id="Container40">
+							<left>269px</left>
+							<top>1375px</top>
+							<width>84px</width>
+							<height>110px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<html>[box40]</html>
+						</Container>
+						<Container id="Container100">
+							<left>420px</left>
+							<top>36px</top>
+							<width>345px</width>
+							<height>202px</height>
+							<style>font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<Components>
+								<Container id="Container41">
+									<left>4px</left>
+									<top>3px</top>
+									<width>336px</width>
+									<height>195px</height>
+									<style>background-color:#A8A8A8;border-style:solid;border-width:1px</style>
+									<Components>
+										<Headline id="Headline2">
+											<left>5px</left>
+											<top>2px</top>
+											<width>76px</width>
+											<height>19px</height>
+											<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;font-weight:800;text-align:center</style>
+											<hover>color:lime</hover>
+											<text>[wherebox01]</text>
+											<click>SetVar [wherebox01] &quot;Health&quot;
+SetVar [where01] &quot;Teeth&quot;
+SetVar [where02] &quot;Muscle&quot;
+SetVar [where03] &quot;General&quot;
+SetVar [where04] &quot;Visual&quot;</click>
+										</Headline>
+										<Headline id="Headline3">
+											<left>5px</left>
+											<top>25px</top>
+											<width>72px</width>
+											<height>20px</height>
+											<style>color:#E0E0E0;font-family:Times New Roman,Times,serif;font-size:9pt;text-align:center</style>
+											<hover>color:lime</hover>
+											<text>[where01]</text>
+										</Headline>
+										<Headline id="Headline6">
+											<left>3px</left>
+											<top>45px</top>
+											<width>72px</width>
+											<height>20px</height>
+											<style>color:#E0E0E0;font-family:Times New Roman,Times,serif;font-size:9pt;text-align:center</style>
+											<hover>color:lime</hover>
+											<text>[where02]</text>
+										</Headline>
+										<Headline id="Headline8">
+											<left>3px</left>
+											<top>66px</top>
+											<width>72px</width>
+											<height>20px</height>
+											<style>color:#E0E0E0;font-family:Times New Roman,Times,serif;font-size:9pt;text-align:center</style>
+											<hover>color:lime</hover>
+											<text>[where03]</text>
+										</Headline>
+										<Headline id="Headline13">
+											<left>4px</left>
+											<top>87px</top>
+											<width>72px</width>
+											<height>20px</height>
+											<style>color:#E0E0E0;font-family:Times New Roman,Times,serif;font-size:9pt;text-align:center</style>
+											<hover>color:lime</hover>
+											<text>[where04]</text>
+										</Headline>
+									</Components>
+								</Container>
+							</Components>
+						</Container>
+						<SVGicon id="SVGicon2">
+							<left>311px</left>
+							<top>19px</top>
+							<width>45px</width>
+							<height>48px</height>
+							<style>stroke:black;stroke-width:1px;fill:#A8A8A8</style>
+							<icon>svgRedo</icon>
+							<preserveAspectRatio>preserve</preserveAspectRatio>
+							<click>ReloadApp</click>
+						</SVGicon>
+						<Headline id="Headline1">
+							<left>15px</left>
+							<top>14px</top>
+							<width>280px</width>
+							<height>71px</height>
+							<style>color:#E0E0E0</style>
+							<text>Where am I up 2&lt;br&gt;&lt;sup&gt;Version 5.001&lt;/sup&gt;</text>
+						</Headline>
+						<Container id="Container2">
+							<left>122px</left>
+							<top>147px</top>
+							<width>116px</width>
+							<height>286px</height>
+							<style>font-size:7pt;background-color:#707070;border-color:#A8A8A8;border-style:solid;border-width:1px</style>
+							<Components>
+								<Headline id="Headline4">
+									<left>2px</left>
+									<top>40px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where01]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline5">
+									<left>5px</left>
+									<top>2px</top>
+									<width>103px</width>
+									<height>24px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;font-weight:800;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[wherebox01]</text>
+									<click>GotoPage &quot;Health&quot;</click>
+								</Headline>
+								<Headline id="Headline30">
+									<left>3px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01a]</text>
+								</Headline>
+								<Headline id="Headline31">
+									<left>29px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01b]</text>
+								</Headline>
+								<Headline id="Headline32">
+									<left>57px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01c]</text>
+								</Headline>
+								<Headline id="Headline33">
+									<left>84px</left>
+									<top>75px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01d]</text>
+								</Headline>
+								<Headline id="Headline34">
+									<left>2px</left>
+									<top>100px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where02]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline35">
+									<left>3px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02a]</text>
+								</Headline>
+								<Headline id="Headline36">
+									<left>29px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02b]</text>
+								</Headline>
+								<Headline id="Headline37">
+									<left>57px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02c]</text>
+								</Headline>
+								<Headline id="Headline38">
+									<left>84px</left>
+									<top>136px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02d]</text>
+								</Headline>
+								<Headline id="Headline39">
+									<left>2px</left>
+									<top>161px</top>
+									<width>111px</width>
+									<height>17px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where03]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline40">
+									<left>3px</left>
+									<top>202px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03a]</text>
+								</Headline>
+								<Headline id="Headline41">
+									<left>29px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03b]</text>
+								</Headline>
+								<Headline id="Headline42">
+									<left>57px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03c]</text>
+								</Headline>
+								<Headline id="Headline43">
+									<left>84px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03d]</text>
+								</Headline>
+								<Headline id="Headline44">
+									<left>2px</left>
+									<top>225px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where04]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline45">
+									<left>3px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04a]</text>
+								</Headline>
+								<Headline id="Headline46">
+									<left>29px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04b]</text>
+								</Headline>
+								<Headline id="Headline47">
+									<left>57px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04c]</text>
+								</Headline>
+								<Headline id="Headline48">
+									<left>84px</left>
+									<top>264px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04d]</text>
+								</Headline>
+								<Ellipse id="Ellipse37">
+									<left>16px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse38">
+									<left>37px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse39">
+									<left>59px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse40">
+									<left>81px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse41">
+									<left>16px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse42">
+									<left>37px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse43">
+									<left>59px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse44">
+									<left>81px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse45">
+									<left>16px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse46">
+									<left>37px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse47">
+									<left>59px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse48">
+									<left>81px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse49">
+									<left>16px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse50">
+									<left>37px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse51">
+									<left>59px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse52">
+									<left>81px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse53">
+									<left>16px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse54">
+									<left>37px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse55">
+									<left>59px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse56">
+									<left>81px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+							</Components>
+						</Container>
+						<Container id="Container3">
+							<left>242px</left>
+							<top>147px</top>
+							<width>116px</width>
+							<height>286px</height>
+							<style>opacity:0.36</style>
+							<Components>
+								<Headline id="Headline49">
+									<left>2px</left>
+									<top>40px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where01]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline50">
+									<left>5px</left>
+									<top>2px</top>
+									<width>103px</width>
+									<height>24px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;font-weight:800;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[wherebox01]</text>
+									<click>GotoPage &quot;Health&quot;</click>
+								</Headline>
+								<Headline id="Headline51">
+									<left>3px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01a]</text>
+								</Headline>
+								<Headline id="Headline52">
+									<left>29px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01b]</text>
+								</Headline>
+								<Headline id="Headline53">
+									<left>57px</left>
+									<top>76px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01c]</text>
+								</Headline>
+								<Headline id="Headline54">
+									<left>84px</left>
+									<top>75px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w01d]</text>
+								</Headline>
+								<Headline id="Headline55">
+									<left>2px</left>
+									<top>100px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where02]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline56">
+									<left>3px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02a]</text>
+								</Headline>
+								<Headline id="Headline57">
+									<left>29px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02b]</text>
+								</Headline>
+								<Headline id="Headline58">
+									<left>57px</left>
+									<top>137px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02c]</text>
+								</Headline>
+								<Headline id="Headline59">
+									<left>84px</left>
+									<top>136px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w02d]</text>
+								</Headline>
+								<Headline id="Headline60">
+									<left>2px</left>
+									<top>161px</top>
+									<width>111px</width>
+									<height>17px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where03]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline61">
+									<left>3px</left>
+									<top>202px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03a]</text>
+								</Headline>
+								<Headline id="Headline62">
+									<left>29px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03b]</text>
+								</Headline>
+								<Headline id="Headline63">
+									<left>57px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03c]</text>
+								</Headline>
+								<Headline id="Headline64">
+									<left>84px</left>
+									<top>201px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w03d]</text>
+								</Headline>
+								<Headline id="Headline65">
+									<left>2px</left>
+									<top>225px</top>
+									<width>111px</width>
+									<height>16px</height>
+									<style>color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000</style>
+									<hover>color:lime</hover>
+									<text>[where04]&lt;br&gt;</text>
+								</Headline>
+								<Headline id="Headline66">
+									<left>3px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04a]</text>
+								</Headline>
+								<Headline id="Headline67">
+									<left>29px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04b]</text>
+								</Headline>
+								<Headline id="Headline68">
+									<left>57px</left>
+									<top>265px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04c]</text>
+								</Headline>
+								<Headline id="Headline69">
+									<left>84px</left>
+									<top>264px</top>
+									<width>25px</width>
+									<height>20px</height>
+									<style>color:#FFFFFF;font-family:Times New Roman,Times,serif;font-size:11pt;text-align:center</style>
+									<hover>color:lime</hover>
+									<text>[w04d]</text>
+								</Headline>
+								<Ellipse id="Ellipse57">
+									<left>16px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse58">
+									<left>37px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse59">
+									<left>59px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse60">
+									<left>81px</left>
+									<top>21px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse61">
+									<left>16px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse62">
+									<left>37px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse63">
+									<left>59px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse64">
+									<left>81px</left>
+									<top>62px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse65">
+									<left>16px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse66">
+									<left>37px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse67">
+									<left>59px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse68">
+									<left>81px</left>
+									<top>121px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse69">
+									<left>16px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse70">
+									<left>37px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse71">
+									<left>59px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse72">
+									<left>81px</left>
+									<top>185px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+								<Ellipse id="Ellipse73">
+									<left>16px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FFFFFF</style>
+								</Ellipse>
+								<Ellipse id="Ellipse74">
+									<left>37px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:lime</style>
+								</Ellipse>
+								<Ellipse id="Ellipse75">
+									<left>59px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:#FABC02</style>
+								</Ellipse>
+								<Ellipse id="Ellipse76">
+									<left>81px</left>
+									<top>249px</top>
+									<width>12px</width>
+									<height>12px</height>
+									<style>fill:red</style>
+								</Ellipse>
+							</Components>
+						</Container>
+					</Components>
+				</Page>
+				<Page id="Health">
+					<style>background-color:#707070</style>
+					<pageenter>SetRelativePosition &quot;cont1&quot; &quot;0&quot; &quot;1&quot;
+SetRelativePosition &quot;cont2&quot; &quot;0&quot; &quot;1&quot;
+SetRelativePosition &quot;cont3&quot; &quot;0&quot; &quot;1&quot;
+
+
+
+.assign visual number to container
+SetVar [box01] &quot;01&quot;
+SetVar [box02] &quot;02&quot;
+SetVar [box03] &quot;03&quot;
+SetVar [box04] &quot;04&quot;
+SetVar [box05] &quot;05&quot;
+SetVar [box06] &quot;06&quot;
+SetVar [box07] &quot;07&quot;
+SetVar [box08] &quot;08&quot;
+SetVar [box09] &quot;09&quot;
+SetVar [box10] &quot;10&quot;
+SetVar [box11] &quot;11&quot;
+SetVar [box12] &quot;12&quot;
+SetVar [box13] &quot;13&quot;
+SetVar [box14] &quot;14&quot;
+SetVar [box15] &quot;15&quot;
+SetVar [box16] &quot;16&quot;
+SetVar [box17] &quot;17&quot;
+SetVar [box18] &quot;18&quot;
+SetVar [box19] &quot;19&quot;
+SetVar [box20] &quot;20&quot;
+SetVar [box21] &quot;21&quot;
+SetVar [box22] &quot;22&quot;
+SetVar [box23] &quot;23&quot;
+SetVar [box24] &quot;24&quot;
+SetVar [box25] &quot;25&quot;
+SetVar [box26] &quot;26&quot;
+SetVar [box27] &quot;27&quot;
+SetVar [box28] &quot;28&quot;
+SetVar [box29] &quot;29&quot;
+SetVar [box30] &quot;30&quot;
+SetVar [box30] &quot;30&quot;
+SetVar [box31] &quot;31&quot;
+SetVar [box32] &quot;32&quot;
+SetVar [box33] &quot;33&quot;
+SetVar [box34] &quot;34&quot;
+SetVar [box35] &quot;35&quot;
+SetVar [box36] &quot;36&quot;
+SetVar [box37] &quot;37&quot;
+SetVar [box38] &quot;38&quot;
+SetVar [box39] &quot;39&quot;
+SetVar [box40] &quot;40&quot;</pageenter>
+					<Components>
+						<TextInput id="TextInput17">
+							<left>266px</left>
+							<top>62px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w01a</variable>
+							<change>SetItem &quot;w01a&quot; [w01a]</change>
+						</TextInput>
+						<TextInput id="TextInput18">
+							<left>265px</left>
+							<top>89px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w01c</variable>
+							<change>SetItem &quot;w01c&quot; [w01c]</change>
+						</TextInput>
+						<TextInput id="TextInput19">
+							<left>309px</left>
+							<top>62px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w01b</variable>
+							<change>SetItem &quot;w01b&quot; [w01b]</change>
+						</TextInput>
+						<TextInput id="TextInput20">
+							<left>309px</left>
+							<top>90px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w01d</variable>
+							<change>SetItem &quot;w01d&quot; [w01d]</change>
+						</TextInput>
+						<TextArea id="TextArea3">
+							<left>17px</left>
+							<top>10px</top>
+							<width>240px</width>
+							<height>45px</height>
+							<variable>wherebox01</variable>
+							<change>SetItem &quot;wherebox01&quot; [wherebox01]</change>
+						</TextArea>
+						<TextArea id="TextArea5">
+							<left>14px</left>
+							<top>61px</top>
+							<width>241px</width>
+							<height>31px</height>
+							<variable>where01</variable>
+							<change>SetItem &quot;where01&quot; [where01]</change>
+						</TextArea>
+						<TextInput id="TextInput21">
+							<left>268px</left>
+							<top>512px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w02c</variable>
+							<change>SetItem &quot;w02c&quot; [w02c]</change>
+						</TextInput>
+						<TextInput id="TextInput22">
+							<left>265px</left>
+							<top>899px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w03a</variable>
+							<change>SetItem &quot;w03a&quot; [w03a]</change>
+						</TextInput>
+						<TextInput id="TextInput23">
+							<left>311px</left>
+							<top>512px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w02d</variable>
+							<change>SetItem &quot;w02d&quot; [w02d]</change>
+						</TextInput>
+						<TextInput id="TextInput24">
+							<left>310px</left>
+							<top>900px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w03b</variable>
+							<change>SetItem &quot;w03b&quot; [w03b]</change>
+						</TextInput>
+						<TextInput id="TextInput25">
+							<left>266px</left>
+							<top>928px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w03c</variable>
+							<change>SetItem &quot;w03c&quot; [w03c]</change>
+						</TextInput>
+						<TextInput id="TextInput26">
+							<left>260px</left>
+							<top>1311px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w04a</variable>
+							<change>SetItem &quot;w04a&quot; [w04a]</change>
+						</TextInput>
+						<TextInput id="TextInput27">
+							<left>310px</left>
+							<top>928px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w03d</variable>
+							<change>SetItem &quot;w03d&quot; [w03d]</change>
+						</TextInput>
+						<TextInput id="TextInput28">
+							<left>306px</left>
+							<top>1312px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w04b</variable>
+							<change>SetItem &quot;w04b&quot; [w04b]</change>
+						</TextInput>
+						<TextInput id="TextInput29">
+							<left>268px</left>
+							<top>485px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w02a</variable>
+							<change>SetItem &quot;w02a&quot; [w02a]</change>
+						</TextInput>
+						<TextInput id="TextInput30">
+							<left>312px</left>
+							<top>486px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w02b</variable>
+							<change>SetItem &quot;w02b&quot; [w02b]</change>
+						</TextInput>
+						<TextInput id="TextInput31">
+							<left>261px</left>
+							<top>1337px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w04c</variable>
+							<change>SetItem &quot;w04c&quot; [w04c]</change>
+						</TextInput>
+						<TextInput id="TextInput32">
+							<left>306px</left>
+							<top>1338px</top>
+							<width>41px</width>
+							<height>23px</height>
+							<style>text-align:center</style>
+							<variable>w04d</variable>
+							<change>SetItem &quot;w04d&quot; [w04d]</change>
+						</TextInput>
+						<SVGicon id="SVGicon1">
+							<left>285px</left>
+							<top>10px</top>
+							<width>45px</width>
+							<height>47px</height>
+							<style>stroke:black;stroke-width:1px;fill:#A8A8A8</style>
+							<icon>svgHome</icon>
+							<preserveAspectRatio>preserve</preserveAspectRatio>
+							<click>GotoPage &quot;home&quot;</click>
+						</SVGicon>
+						<TextArea id="TextArea12">
+							<left>11px</left>
+							<top>116px</top>
+							<width>227px</width>
+							<height>193px</height>
+							<variable>w01e</variable>
+							<change>SetItem &quot;w01e&quot; [w01e]</change>
+						</TextArea>
+						<TextArea id="TextArea15">
+							<left>240px</left>
+							<top>116px</top>
+							<width>111px</width>
+							<height>221px</height>
+							<variable>w01f</variable>
+							<change>SetItem &quot;w01f&quot; [w01f]</change>
+						</TextArea>
+						<TextArea id="TextArea11">
+							<left>11px</left>
+							<top>341px</top>
+							<width>339px</width>
+							<height>104px</height>
+							<variable>w01h</variable>
+							<change>SetItem &quot;w01h&quot; [w01h]</change>
+						</TextArea>
+						<PushButton id="PushButton3">
+							<left>13px</left>
+							<top>95px</top>
+							<width>50px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Freeze</caption>
+						</PushButton>
+						<PushButton id="PushButton5">
+							<left>65px</left>
+							<top>95px</top>
+							<width>65px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Zzzz Rest</caption>
+						</PushButton>
+						<PushButton id="PushButton4">
+							<left>132px</left>
+							<top>95px</top>
+							<width>42px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Hat</caption>
+						</PushButton>
+						<Ellipse id="Ellipse1">
+							<left>178px</left>
+							<top>96px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:white;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse2">
+							<left>199px</left>
+							<top>96px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#00FF00;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse3">
+							<left>221px</left>
+							<top>96px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FABC02;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse4">
+							<left>243px</left>
+							<top>96px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FF0000;stroke:black</style>
+						</Ellipse>
+						<TextInput id="TextInput33">
+							<left>12px</left>
+							<top>311px</top>
+							<width>226px</width>
+							<height>27px</height>
+							<variable>w01g</variable>
+							<change>SetItem &quot;w01g&quot; [w01g]</change>
+						</TextInput>
+						<TextArea id="TextArea9">
+							<left>14px</left>
+							<top>484px</top>
+							<width>241px</width>
+							<height>31px</height>
+							<variable>where02</variable>
+							<change>SetItem &quot;where02&quot; [where02]</change>
+						</TextArea>
+						<TextArea id="TextArea10">
+							<left>11px</left>
+							<top>539px</top>
+							<width>227px</width>
+							<height>193px</height>
+						</TextArea>
+						<TextArea id="TextArea13">
+							<left>240px</left>
+							<top>539px</top>
+							<width>111px</width>
+							<height>221px</height>
+						</TextArea>
+						<TextArea id="TextArea14">
+							<left>11px</left>
+							<top>764px</top>
+							<width>339px</width>
+							<height>104px</height>
+						</TextArea>
+						<PushButton id="PushButton6">
+							<left>13px</left>
+							<top>518px</top>
+							<width>50px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Freeze</caption>
+						</PushButton>
+						<PushButton id="PushButton7">
+							<left>65px</left>
+							<top>518px</top>
+							<width>65px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Zzzz Rest</caption>
+						</PushButton>
+						<PushButton id="PushButton8">
+							<left>132px</left>
+							<top>518px</top>
+							<width>42px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Hat</caption>
+						</PushButton>
+						<Ellipse id="Ellipse5">
+							<left>178px</left>
+							<top>519px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:white;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse6">
+							<left>199px</left>
+							<top>519px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#00FF00;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse7">
+							<left>221px</left>
+							<top>519px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FABC02;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse8">
+							<left>243px</left>
+							<top>519px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FF0000;stroke:black</style>
+						</Ellipse>
+						<TextInput id="TextInput38">
+							<left>12px</left>
+							<top>734px</top>
+							<width>226px</width>
+							<height>27px</height>
+						</TextInput>
+						<TextArea id="TextArea17">
+							<left>12px</left>
+							<top>899px</top>
+							<width>241px</width>
+							<height>31px</height>
+							<variable>where03</variable>
+							<change>SetItem &quot;where03&quot; [where03]</change>
+						</TextArea>
+						<TextArea id="TextArea18">
+							<left>9px</left>
+							<top>954px</top>
+							<width>227px</width>
+							<height>193px</height>
+						</TextArea>
+						<TextArea id="TextArea19">
+							<left>238px</left>
+							<top>954px</top>
+							<width>111px</width>
+							<height>221px</height>
+						</TextArea>
+						<TextArea id="TextArea20">
+							<left>9px</left>
+							<top>1179px</top>
+							<width>339px</width>
+							<height>104px</height>
+						</TextArea>
+						<PushButton id="PushButton9">
+							<left>11px</left>
+							<top>933px</top>
+							<width>50px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Freeze</caption>
+						</PushButton>
+						<PushButton id="PushButton10">
+							<left>63px</left>
+							<top>933px</top>
+							<width>65px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Zzzz Rest</caption>
+						</PushButton>
+						<PushButton id="PushButton11">
+							<left>130px</left>
+							<top>933px</top>
+							<width>42px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Hat</caption>
+						</PushButton>
+						<Ellipse id="Ellipse9">
+							<left>176px</left>
+							<top>934px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:white;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse10">
+							<left>197px</left>
+							<top>934px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#00FF00;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse11">
+							<left>219px</left>
+							<top>934px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FABC02;stroke:black</style>
+						</Ellipse>
+						<TextInput id="TextInput39">
+							<left>10px</left>
+							<top>1149px</top>
+							<width>226px</width>
+							<height>27px</height>
+						</TextInput>
+						<TextArea id="TextArea22">
+							<left>8px</left>
+							<top>1310px</top>
+							<width>241px</width>
+							<height>31px</height>
+							<variable>where04</variable>
+							<change>SetItem &quot;where04&quot; [where04]</change>
+						</TextArea>
+						<TextArea id="TextArea23">
+							<left>5px</left>
+							<top>1365px</top>
+							<width>227px</width>
+							<height>193px</height>
+						</TextArea>
+						<TextArea id="TextArea24">
+							<left>234px</left>
+							<top>1365px</top>
+							<width>111px</width>
+							<height>221px</height>
+						</TextArea>
+						<TextArea id="TextArea25">
+							<left>5px</left>
+							<top>1590px</top>
+							<width>339px</width>
+							<height>104px</height>
+						</TextArea>
+						<PushButton id="PushButton12">
+							<left>7px</left>
+							<top>1344px</top>
+							<width>50px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Freeze</caption>
+						</PushButton>
+						<PushButton id="PushButton13">
+							<left>59px</left>
+							<top>1344px</top>
+							<width>65px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Zzzz Rest</caption>
+						</PushButton>
+						<PushButton id="PushButton14">
+							<left>126px</left>
+							<top>1344px</top>
+							<width>42px</width>
+							<height>19px</height>
+							<style>font-size:8pt;line-height:60%;text-align:center</style>
+							<caption>Hat</caption>
+						</PushButton>
+						<Ellipse id="Ellipse12">
+							<left>172px</left>
+							<top>1345px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:white;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse13">
+							<left>193px</left>
+							<top>1345px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#00FF00;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse14">
+							<left>215px</left>
+							<top>1345px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FABC02;stroke:black</style>
+						</Ellipse>
+						<TextInput id="TextInput40">
+							<left>6px</left>
+							<top>1560px</top>
+							<width>226px</width>
+							<height>27px</height>
+						</TextInput>
+						<Ellipse id="Ellipse15">
+							<left>241px</left>
+							<top>934px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FF0000;stroke:black</style>
+						</Ellipse>
+						<Ellipse id="Ellipse16">
+							<left>237px</left>
+							<top>1345px</top>
+							<width>20px</width>
+							<height>19px</height>
+							<style>fill:#FF0000;stroke:black</style>
+						</Ellipse>
+						<PushButton id="PushButton15">
+							<left>382px</left>
+							<top>1px</top>
+							<width>77px</width>
+							<height>37px</height>
+							<caption>Get</caption>
+							<click>GetItem &quot;wherebox01&quot; [wherebox01]
+GetItem &quot;where01&quot; [where01]
+GetItem &quot;w01a&quot; [w01a]
+GetItem &quot;w01b&quot; [w01b]
+GetItem &quot;w01c&quot; [w01c]
+GetItem &quot;w01d&quot; [w01d]
+GetItem &quot;w01e&quot; [w01e]
+GetItem &quot;w01f&quot; [w01f]
+GetItem &quot;w01g&quot; [w01g]
+GetItem &quot;w01h&quot; [w01h]
+
+GetItem &quot;where02&quot; [where02]
+GetItem &quot;w02a&quot; [w02a]
+GetItem &quot;w02b&quot; [w02b]
+GetItem &quot;w02c&quot; [w02c]
+GetItem &quot;w02d&quot; [w02d]
+GetItem &quot;w02e&quot; [w02e]
+GetItem &quot;w02f&quot; [w02f]
+GetItem &quot;w02g&quot; [w02g]
+GetItem &quot;w02h&quot; [w02h]
+
+GetItem &quot;where03&quot; [where03]
+GetItem &quot;w03a&quot; [w03a]
+GetItem &quot;w03b&quot; [w03b]
+GetItem &quot;w03c&quot; [w03c]
+GetItem &quot;w03d&quot; [w03d]
+GetItem &quot;w03e&quot; [w03e]
+GetItem &quot;w03f&quot; [w03f]
+GetItem &quot;w03g&quot; [w03g]
+GetItem &quot;w03h&quot; [w03h]
+
+GetItem &quot;where04&quot; [where04]
+GetItem &quot;w04a&quot; [w04a]
+GetItem &quot;w04b&quot; [w04b]
+GetItem &quot;w04c&quot; [w04c]
+GetItem &quot;w04d&quot; [w04d]
+GetItem &quot;w04e&quot; [w04e]
+GetItem &quot;w04f&quot; [w04f]
+GetItem &quot;w04g&quot; [w04g]
+GetItem &quot;w04h&quot; [w04h]</click>
+						</PushButton>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>375px</width>
+							<height>667px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>
