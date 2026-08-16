@@ -65,17 +65,7 @@ $App.where01 = "Teeth";
 $App.where02 = "Muscle";
 $App.where03 = "General";
 $App.where04 = "Visual";};
-$scope.SVGicon1_click = function() {$("#"+"cont1").detach().appendTo("#"+"Container1");
-$("#"+"cont2").detach().appendTo("#"+"Container2");
-$scope.SetRelativePosition("cont1","1","1");
-$scope.SetRelativePosition("cont2","1","1");};
-$scope.SVGicon2_click = function() {$("#"+"cont1").detach().appendTo("#"+"Container1");
-$("#"+"cont2").detach().appendTo("#"+"Container2");
-$scope.SetRelativePosition("cont1","1","1");
-$scope.SetRelativePosition("cont2","1","1");};
-$scope.SVGicon3_click = function() {$("#"+"cont1").detach().appendTo("#"+"Container3");
-$scope.SetRelativePosition("cont1","1","1");};
-$scope.PushButton1_click = function() {$App.wherebox01 = "Health";
+$scope.PushButton1_click = function() {$App.wherebox01 = "Health and Health stuff";
 $App.where01 = "Teeth";
 $App.where02 = "Muscle";
 $App.where03 = "General";
@@ -85,6 +75,7 @@ $App.w01b = "B";
 $App.w01c = "C";
 $App.w01d = "D";
 $App.w01e = "E";};
+$scope.PushButton2_click = function() {window.document.location.reload();};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {
