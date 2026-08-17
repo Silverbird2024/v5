@@ -99,8 +99,9 @@ $App.where02 = "Muscle";
 $App.where03 = "General";
 $App.where04 = "Visual";};
 $scope.SVGicon2_click = function() {window.document.location.reload();};
-$scope.Headline5_click = function() {$scope.GotoPage( "Health" );};
 $scope.Headline50_click = function() {$scope.GotoPage( "Health" );};
+$scope.PushButton1_click = function() {$App.E01 = String.fromCodePoint(0x1F435);
+};
 });
 NeoApp.controller("Health_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
