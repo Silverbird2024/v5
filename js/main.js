@@ -347,6 +347,19 @@ $scope.PushButton24_click = function() {$App.dispjava01 = $App.ee09;};
 $scope.PushButton25_click = function() {$App.dispjava01 = $App.ee10;};
 $scope.PushButton26_click = function() {$App.dispjava01 = $App.ee11;};
 $scope.PushButton27_click = function() {$App.dispjava01 = $App.ee12;};
+$scope.PushButton28_click = function() {$App.dispjava01 = $App.ee01;};
+$scope.PushButton29_click = function() {$App.dispjava01 = $App.ee02;};
+$scope.PushButton30_click = function() {$App.dispjava01 = $App.ee03;};
+$scope.PushButton31_click = function() {$App.dispjava01 = $App.ee04;};
+$scope.PushButton32_click = function() {$App.dispjava01 = $App.ee17;};
+$scope.PushButton33_click = function() {$App.dispjava01 = $App.ee06;};
+$scope.PushButton34_click = function() {$App.dispjava01 = $App.ee07;};
+$scope.PushButton35_click = function() {$App.dispjava01 = $App.ee08;};
+$scope.PushButton36_click = function() {$App.dispjava01 = $App.ee09;};
+$scope.PushButton37_click = function() {$App.dispjava01 = $App.ee10;};
+$scope.PushButton38_click = function() {$App.dispjava01 = $App.ee11;};
+$scope.PushButton39_click = function() {$App.dispjava01 = $App.ee12;};
+$scope.PushButton40_click = function() {$App.dispjava01 = $App.ee28;};
 });
 NeoApp.controller("homecopy_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
@@ -428,6 +441,9 @@ $App.w04e = localStorage.getItem("w04e");
 $App.w04f = localStorage.getItem("w04f");
 $App.w04g = localStorage.getItem("w04g");
 $App.w04h = localStorage.getItem("w04h");};
+$scope.PushButton44_click = function() {$App.w01c = $App.ee28;};
+$scope.PushButton45_click = function() {$App.w01c = $App.ee17;};
+$scope.PushButton46_click = function() {$App.w01c = $App.ee11;};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {
