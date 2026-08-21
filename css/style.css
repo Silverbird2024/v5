@@ -66,36 +66,38 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Ellipse34 {position:absolute;left:37px;top:249px;width:12px;height:12px;margin:0;fill:lime}
 #Ellipse35 {position:absolute;left:59px;top:249px;width:12px;height:12px;margin:0;opacity:0.34}
 #Ellipse36 {position:absolute;left:81px;top:249px;width:12px;height:12px;margin:0;opacity:0.34}
-#SVGicon2 {position:absolute;left:311px;top:19px;width:45px;height:48px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon2 {position:absolute;left:297px;top:21px;width:45px;height:48px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
 #Headline1 {position:absolute;left:15px;top:14px;width:280px;height:71px;margin:0;color:#E0E0E0}
 #PushButton1 {position:absolute;left:3px;top:230px;width:116px;height:31px;margin:0;}
 #Headline4 {position:absolute;left:131px;top:84px;width:230px;height:931px;margin:0;font-size:16pt}
-#PushButton16 {position:absolute;left:293px;top:86px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton19 {position:absolute;left:293px;top:109px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton20 {position:absolute;left:293px;top:132px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton17 {position:absolute;left:293px;top:155px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton18 {position:absolute;left:293px;top:178px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton21 {position:absolute;left:293px;top:201px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
+#PushButton16 {position:absolute;left:295px;top:86px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton19 {position:absolute;left:295px;top:109px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton20 {position:absolute;left:295px;top:132px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton17 {position:absolute;left:295px;top:155px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton18 {position:absolute;left:295px;top:178px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton21 {position:absolute;left:295px;top:201px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
 #Headline2 {position:absolute;left:4px;top:106px;width:120px;height:104px;margin:0;font-size:60pt}
-#PushButton22 {position:absolute;left:292px;top:225px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton23 {position:absolute;left:292px;top:248px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton24 {position:absolute;left:292px;top:271px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton25 {position:absolute;left:292px;top:294px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton26 {position:absolute;left:292px;top:317px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton27 {position:absolute;left:292px;top:340px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton28 {position:absolute;left:293px;top:365px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton29 {position:absolute;left:293px;top:388px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton30 {position:absolute;left:293px;top:411px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton31 {position:absolute;left:293px;top:434px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton32 {position:absolute;left:293px;top:457px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton33 {position:absolute;left:293px;top:480px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton34 {position:absolute;left:292px;top:504px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton35 {position:absolute;left:292px;top:527px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton36 {position:absolute;left:292px;top:550px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton37 {position:absolute;left:292px;top:573px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton38 {position:absolute;left:292px;top:596px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
-#PushButton39 {position:absolute;left:292px;top:619px;width:52px;height:21px;margin:0;font-size:11pt;line-height:60%}
+#PushButton22 {position:absolute;left:295px;top:225px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton23 {position:absolute;left:295px;top:248px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton24 {position:absolute;left:295px;top:271px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton25 {position:absolute;left:295px;top:294px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton26 {position:absolute;left:295px;top:317px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton27 {position:absolute;left:295px;top:340px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton28 {position:absolute;left:295px;top:365px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton29 {position:absolute;left:295px;top:388px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton30 {position:absolute;left:295px;top:411px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton31 {position:absolute;left:295px;top:434px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton32 {position:absolute;left:295px;top:457px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton33 {position:absolute;left:295px;top:480px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton34 {position:absolute;left:295px;top:504px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton35 {position:absolute;left:295px;top:527px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton36 {position:absolute;left:295px;top:550px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton37 {position:absolute;left:295px;top:573px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton38 {position:absolute;left:295px;top:596px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
+#PushButton39 {position:absolute;left:295px;top:619px;width:52px;height:21px;margin:0;color:#383838;font-size:9pt;line-height:60%}
 #PushButton40 {position:absolute;left:292px;top:718px;width:62px;height:21px;margin:0;font-size:11pt;line-height:60%}
+#Headline3 {position:absolute;left:272px;top:4px;width:69px;height:19px;margin:0;font-size:11pt;text-align:right}
+#Headline3:hover {color:lime;font-size:12pt;font-weight:600}
 #homecopy {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
 #Container2 {position:absolute;left:2px;top:147px;width:116px;height:286px;margin:0;font-size:7pt;background-color:#707070;border-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Headline5 {position:absolute;left:2px;top:40px;width:111px;height:16px;margin:0;color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000}
@@ -239,6 +241,93 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Ellipse96 {position:absolute;left:81px;top:249px;width:12px;height:12px;margin:0;fill:red}
 #PushButton2 {position:absolute;left:8px;top:100px;width:123px;height:25px;margin:0;}
 #Headline98 {position:absolute;left:175px;top:86px;width:183px;height:48px;margin:0;}
+#Seaview {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
+#Container7 {position:absolute;left:387px;top:0px;width:345px;height:621px;margin:0;font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#TextArea1 {position:absolute;left:11px;top:21px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#TextArea2 {position:absolute;left:10px;top:54px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#TextArea4 {position:absolute;left:10px;top:88px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#Image1 {position:absolute;left:-4px;top:-2px;width:371px;height:709px;margin:0;}
+#SVGicon4 {position:absolute;left:251px;top:3px;width:29px;height:20px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon4:hover {fill:lime}
+#Headline6 {position:absolute;left:15px;top:37px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline6:hover {color:lime}
+#Headline8 {position:absolute;left:14px;top:61px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline8:hover {color:lime}
+#Headline13 {position:absolute;left:15px;top:85px;width:101px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline13:hover {color:lime}
+#Headline56 {position:absolute;left:118px;top:36px;width:64px;height:18px;margin:0;color:white;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#SVGicon8 {position:absolute;left:172px;top:33px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon8:hover {fill:lime}
+#SVGicon9 {position:absolute;left:205px;top:33px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon9:hover {fill:lime}
+#Headline64 {position:absolute;left:118px;top:59px;width:69px;height:18px;margin:0;color:White;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#SVGicon13 {position:absolute;left:172px;top:56px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon13:hover {fill:lime}
+#SVGicon14 {position:absolute;left:205px;top:56px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon14:hover {fill:lime}
+#Headline65 {position:absolute;left:118px;top:84px;width:69px;height:18px;margin:0;color:White;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#SVGicon16 {position:absolute;left:205px;top:81px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon16:hover {fill:lime}
+#SVGicon15 {position:absolute;left:172px;top:81px;width:18px;height:18px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon15:hover {fill:lime}
+#Headline105 {position:absolute;left:14px;top:159px;width:115px;height:21px;margin:0;color:white;font-size:10pt}
+#Tax1 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
+#Image2 {position:absolute;left:-4px;top:-2px;width:371px;height:709px;margin:0;}
+#SVGicon5 {position:absolute;left:251px;top:3px;width:29px;height:20px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon5:hover {fill:lime}
+#Headline49 {position:absolute;left:15px;top:37px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline50 {position:absolute;left:14px;top:61px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline51 {position:absolute;left:15px;top:85px;width:101px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Container3 {position:absolute;left:0px;top:175px;width:345px;height:621px;margin:0;font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#TextArea6 {position:absolute;left:9px;top:35px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#TextArea7 {position:absolute;left:11px;top:93px;width:52px;height:36px;margin:0;background-color:#E0E0E0}
+#TextArea8 {position:absolute;left:14px;top:302px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#Headline53 {position:absolute;left:10px;top:18px;width:93px;height:20px;margin:0;font-size:11pt}
+#Headline54 {position:absolute;left:9px;top:71px;width:93px;height:20px;margin:0;font-size:11pt}
+#SVGicon6 {position:absolute;left:70px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon7 {position:absolute;left:100px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#Headline52 {position:absolute;left:282px;top:7px;width:59px;height:19px;margin:0;font-size:11pt;text-align:right}
+#Headline52:hover {color:lime;font-size:12pt;font-weight:600}
+#Headline55 {position:absolute;left:118px;top:36px;width:69px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline104 {position:absolute;left:12px;top:159px;width:115px;height:21px;margin:0;color:white;font-size:10pt}
+#Tax2 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
+#Image3 {position:absolute;left:-4px;top:-2px;width:371px;height:709px;margin:0;}
+#SVGicon10 {position:absolute;left:251px;top:3px;width:29px;height:20px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon10:hover {fill:lime}
+#Headline57 {position:absolute;left:15px;top:37px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline58 {position:absolute;left:14px;top:61px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline59 {position:absolute;left:15px;top:85px;width:101px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Container8 {position:absolute;left:0px;top:175px;width:345px;height:621px;margin:0;font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#TextArea16 {position:absolute;left:9px;top:35px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#TextArea21 {position:absolute;left:11px;top:93px;width:52px;height:36px;margin:0;background-color:#E0E0E0}
+#TextArea26 {position:absolute;left:14px;top:302px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#Headline60 {position:absolute;left:10px;top:18px;width:93px;height:20px;margin:0;font-size:11pt}
+#Headline61 {position:absolute;left:9px;top:71px;width:93px;height:20px;margin:0;font-size:11pt}
+#SVGicon11 {position:absolute;left:70px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon12 {position:absolute;left:100px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#Headline62 {position:absolute;left:282px;top:7px;width:59px;height:19px;margin:0;font-size:11pt;text-align:right}
+#Headline62:hover {color:lime;font-size:12pt;font-weight:600}
+#Headline63 {position:absolute;left:118px;top:59px;width:69px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline103 {position:absolute;left:12px;top:159px;width:115px;height:21px;margin:0;color:white;font-size:10pt}
+#Tax3 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
+#Image4 {position:absolute;left:-4px;top:-2px;width:371px;height:709px;margin:0;}
+#SVGicon17 {position:absolute;left:251px;top:3px;width:29px;height:20px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon17:hover {fill:lime}
+#Headline66 {position:absolute;left:15px;top:37px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline67 {position:absolute;left:14px;top:61px;width:98px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline68 {position:absolute;left:15px;top:85px;width:101px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Container9 {position:absolute;left:0px;top:175px;width:345px;height:621px;margin:0;font-size:7pt;background-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
+#TextArea27 {position:absolute;left:9px;top:35px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#TextArea28 {position:absolute;left:11px;top:93px;width:52px;height:36px;margin:0;background-color:#E0E0E0}
+#TextArea29 {position:absolute;left:14px;top:302px;width:165px;height:29px;margin:0;background-color:#E0E0E0}
+#Headline69 {position:absolute;left:10px;top:18px;width:93px;height:20px;margin:0;font-size:11pt}
+#Headline99 {position:absolute;left:9px;top:71px;width:93px;height:20px;margin:0;font-size:11pt}
+#SVGicon18 {position:absolute;left:70px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#SVGicon19 {position:absolute;left:100px;top:100px;width:25px;height:25px;margin:0;fill:#FF0000;stroke:black;stroke-width:1px}
+#Headline100 {position:absolute;left:282px;top:7px;width:59px;height:19px;margin:0;font-size:11pt;text-align:right}
+#Headline100:hover {color:lime;font-size:12pt;font-weight:600}
+#Headline101 {position:absolute;left:118px;top:85px;width:69px;height:18px;margin:0;font-family:Times New Roman,Times,serif;font-size:10pt;font-weight:400}
+#Headline102 {position:absolute;left:12px;top:159px;width:115px;height:21px;margin:0;color:white;font-size:10pt}
 #Health {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
 #TextInput17 {position:absolute;left:266px;top:62px;width:41px;height:23px;margin:0;text-align:center}
 #TextInput18 {position:absolute;left:265px;top:89px;width:41px;height:23px;margin:0;text-align:center}
