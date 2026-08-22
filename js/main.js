@@ -23,7 +23,9 @@ $App.tax01e = localStorage.getItem("tax01e");
 $App.tax02e = localStorage.getItem("tax02e");
 $App.tax03e = localStorage.getItem("tax03e");
 $App.tax04e = localStorage.getItem("tax04e");
+$App.life = localStorage.getItem("life");
 $App.taxtot = localStorage.getItem("taxtot");
+$App.vtaxtot = localStorage.getItem("vtaxtot");
 $scope.GotoPage( "Seaview" );};
 $scope.homecopy_pageenter = function() {$App.wherebox01 = localStorage.getItem("wherebox01");
 $App.where01 = localStorage.getItem("where01");
@@ -210,31 +212,106 @@ $scope.Headline8_click = function() {$scope.GotoPage( "Tax2" );};
 $scope.Headline13_click = function() {$scope.GotoPage( "Tax3" );};
 $scope.SVGicon8_click = function() {$App.tax01b = $scope.Calculate($App.tax01b+"+1",-1);
 localStorage.setItem("tax01b",$App.tax01b);
-$App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon9_click = function() {$App.tax01b = $scope.Calculate($App.tax01b+"-1",-1);
 localStorage.setItem("tax01b",$App.tax01b);
 $App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon13_click = function() {$App.tax02b = $scope.Calculate($App.tax02b+"+1",-1);
 localStorage.setItem("tax02b",$App.tax02b);
 $App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon14_click = function() {$App.tax02b = $scope.Calculate($App.tax02b+"-1",-1);
 localStorage.setItem("tax02b",$App.tax02b);
 $App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon16_click = function() {$App.tax03b = $scope.Calculate($App.tax03b+"-1",-1);
 localStorage.setItem("tax03b",$App.tax03b);
 $App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon15_click = function() {$App.tax03b = $scope.Calculate($App.tax03b+"+1",-1);
 localStorage.setItem("tax03b",$App.tax03b);
 $App.taxtot = $scope.Calculate("70+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b,-1);
-localStorage.setItem("taxtot",$App.taxtot);};
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 $scope.SVGicon6_click = function() {window.document.location.reload();};
 $scope.Headline121_click = function() {$scope.GotoPage( "Tax1" );};
 $scope.SVGicon11_click = function() {$scope.PlaySound($App.ping,true);};
+$scope.SVGicon12_click = function() {$App.life = $scope.Calculate($App.life+"+1",-1);
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
+$scope.SVGicon17_click = function() {$App.life = $scope.Calculate($App.life+"-1",-1);
+$App.tax04b = "0";
+if ($App.life < 1) {
+$App.life = "70";
+} else {
+};
+$App.taxtot = $scope.Calculate($App.life+"+"+$App.tax01b+"+"+$App.tax02b+"+"+$App.tax03b+"+"+$App.tax04b,-1);
+$App.vtaxtot = $scope.Calculate($App.taxtot+"-"+$App.life,-1);
+localStorage.setItem("life",$App.life);
+localStorage.setItem("taxtot",$App.taxtot);
+localStorage.setItem("vtaxtot",$App.vtaxtot);};
 });
 NeoApp.controller("homecopy_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
