@@ -99,6 +99,7 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Ellipse98 {position:absolute;left:203px;top:635px;width:16px;height:16px;margin:0;stroke:black;stroke-width:1px;fill:white}
 #Ellipse99 {position:absolute;left:230px;top:635px;width:16px;height:16px;margin:0;stroke:black;stroke-width:1px;fill:white}
 #Ellipse100 {position:absolute;left:257px;top:635px;width:16px;height:16px;margin:0;stroke:black;stroke-width:1px;fill:white}
+#SVGicon28 {position:absolute;left:282px;top:52px;width:31px;height:26px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
 #homecopy {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
 #Container2 {position:absolute;left:2px;top:147px;width:116px;height:286px;margin:0;font-size:7pt;background-color:#707070;border-color:#A8A8A8;border-style:solid;border-width:1px;overflow-x:hidden;overflow-y:hidden}
 #Headline5 {position:absolute;left:2px;top:40px;width:111px;height:16px;margin:0;color:#E0E0E0;font-family:Arial,Helvetica,sans-serif;font-size:9pt;font-weight:600;line-height:150%;text-align:center;vertical-align:middle;background-color:#000000}
@@ -360,6 +361,16 @@ html{background:#eeeeee}body{background:rgba(255,255,255,0);position:absolute;to
 #Headline111 {position:absolute;left:8px;top:44px;width:345px;height:203px;margin:0;color:#383838;font-family:Arial,Helvetica,sans-serif;font-size:12pt;font-weight:800;text-align:center;text-shadow:0px 0px 3px white}
 #Headline112 {position:absolute;left:128px;top:14px;width:67px;height:23px;margin:0;color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:9pt;font-weight:400;text-align:center}
 #Headline112:hover {color:lime}
+#LooseEnds {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
+#SVGicon12 {position:absolute;left:251px;top:3px;width:29px;height:20px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
+#SVGicon12:hover {fill:lime}
+#Headline126 {position:absolute;left:282px;top:7px;width:59px;height:19px;margin:0;font-size:11pt;text-align:right;text-shadow:0px 0px 3px white}
+#Headline126:hover {color:lime;font-size:12pt;font-weight:600}
+#TextArea31 {position:absolute;left:29px;top:74px;width:325px;height:241px;margin:0;color:#383838;text-align:left;vertical-align:middle;background-color:#E0E0E0}
+#TextArea32 {position:absolute;left:30px;top:344px;width:322px;height:294px;margin:0;color:#383838;text-align:left;vertical-align:middle;background-color:#E0E0E0}
+#Headline132 {position:absolute;left:30px;top:50px;width:210px;height:18px;margin:0;color:white;font-family:Times New Roman,Times,serif;font-size:12pt;font-weight:400;text-align:left;text-shadow:0px 0px 5px yellow}
+#Headline133 {position:absolute;left:32px;top:320px;width:99px;height:18px;margin:0;color:white;font-family:Times New Roman,Times,serif;font-size:12pt;font-weight:400;text-align:left;text-shadow:0px 0px 5px yellow}
+#SVGicon17 {position:absolute;left:312px;top:35px;width:29px;height:25px;margin:0;stroke:black;stroke-width:1px;fill:#A8A8A8}
 #Tax2 {position:relative;width:100%;height:100%;overflow:auto;;background-color:#707070}
 #Image3 {position:absolute;left:-1px;top:3px;width:376px;height:664px;margin:0;}
 #Headline63 {position:absolute;left:8px;top:44px;width:345px;height:203px;margin:0;color:#383838;font-family:Arial,Helvetica,sans-serif;font-size:12pt;font-weight:800;text-align:center;text-shadow:0px 0px 3px white}
