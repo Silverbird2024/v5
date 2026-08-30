@@ -262,6 +262,8 @@ $scope.GotoPage( "Seaview" );};
 $scope.TextArea33_change = function() {localStorage.setItem("gmsta",$App.gmsta);};
 $scope.TextArea34_change = function() {localStorage.setItem("gmstn",$App.gmstb);};
 $scope.TextArea35_change = function() {localStorage.setItem("gmstc",$App.gmstc);};
+$scope.Pager1_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager1_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Seaview_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
@@ -763,6 +765,8 @@ localStorage.setItem("lifec",$App.lifec);
 localStorage.setItem("lifed",$App.lifed);
 localStorage.setItem("taxtot",$App.taxtot);};
 $scope.SVGicon28_click = function() {$scope.GotoPage( "LooseEnds" );};
+$scope.Pager2_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager2_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("homecopy_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 3;
@@ -777,6 +781,8 @@ $scope.SVGicon3_click = function() {window.document.location.reload();};
 $scope.Headline78_click = function() {$scope.GotoPage( "Health" );};
 $scope.PushButton2_click = function() {$App.E01 = String.fromCodePoint(0x1F435);
 };
+$scope.Pager3_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager3_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 4;
@@ -982,6 +988,8 @@ $App.tax03b = localStorage.getItem("tax03b");
 $App.tax04b = localStorage.getItem("tax04b");
 $scope.GotoPage( "Seaview" );};
 $scope.Headline125_click = function() {$scope.GotoPage( "NewLanding" );};
+$scope.Pager4_prevclick = function() {$scope.GotoPrevPage();};
+$scope.Pager4_nextclick = function() {$scope.GotoNextPage();};
 });
 NeoApp.controller("Tax1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 5;
