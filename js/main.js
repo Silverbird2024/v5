@@ -981,6 +981,15 @@ $App.tax02b = localStorage.getItem("tax02b");
 $App.tax03b = localStorage.getItem("tax03b");
 $App.tax04b = localStorage.getItem("tax04b");
 $scope.GotoPage( "Seaview" );};
+$scope.Headline125_click = function() {$App.tax01a = localStorage.getItem("tax01a");
+$App.tax02a = localStorage.getItem("tax02a");
+$App.tax03a = localStorage.getItem("tax03a");
+$App.tax04a = localStorage.getItem("tax04a");
+$App.tax01b = localStorage.getItem("tax01b");
+$App.tax02b = localStorage.getItem("tax02b");
+$App.tax03b = localStorage.getItem("tax03b");
+$App.tax04b = localStorage.getItem("tax04b");
+$scope.GotoPage( "NewLanding" );};
 });
 NeoApp.controller("Tax1_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 5;
